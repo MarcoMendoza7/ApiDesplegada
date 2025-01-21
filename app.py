@@ -1,6 +1,6 @@
-from flask import Flask, render_template
-from nbconvert import HTMLExporter
-import nbformat
+from flask import Flask, render_template # type: ignore
+from nbconvert import HTMLExporter # type: ignore
+import nbformat # type: ignore
 import os
 
 app = Flask(__name__)
